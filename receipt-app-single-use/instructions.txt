@@ -1,0 +1,26 @@
+Local App
+Installation steps
+1. Install Python 3 (64bit if OS is 64-bit else 32-bit)
+2. Paste files in a custom folder (anywhere we want)
+3. Open command line on that folder
+4. Create virtual environment *
+
+for windows: python -m venv .\venv 
+for linux: python3 -m venv /path/to/new/venv
+
+5. Start virtual environment *
+
+for windows: venv\Scripts\activate
+for linux: source venv /bin/activate
+
+6. Install requirements *
+
+pip install -r /path/to/requirements.txt
+
+7. For windows: Go to startup folder C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup and create a shortcut for the file hidden.vbs.
+8. Restart and is ready for use.
+Steps with * are running
+
+***IMPORTANT ***
+1. Change from main.py the file paths
+2. PDF printer of Windows as Default
